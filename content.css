@@ -1,0 +1,149 @@
+.title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 38%;
+    text-align: center;
+    width: 25%;
+    font-weight:900;
+    font-size: 20px;
+    color:rgb(229, 155, 44);
+    text-shadow:  20px 20px 60px #747474,
+    -20px -20px 60px #ffffff;
+}
+
+/* .title a:hover{
+    background-color: rgb(255, 211, 91);
+    padding: 10px 20px 4px 20px;
+    border-radius: 10px;
+} */
+
+.row {
+    align-content: center;
+    justify-content: center;
+    display: flex; 
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    /* padding: 0 15px; */
+    padding: 20px 0px 20px 0px;
+    margin: 0px 20px 60px 20px;
+    background-color: rgba(251, 231, 144);
+    border-radius: 10%;
+}
+
+.box:hover{
+    background-color: rgb(255, 211, 91);
+}
+
+.uniAbox {
+    width: 25%;
+    /* padding: 0 15px; */
+    padding: 20px 0px 20px 0px;
+    margin: 0px 20px 60px 20px;
+    background-color: rgba(251, 231, 144);
+    border-radius: 10%;
+}
+
+.uniLogo {
+    border-radius: 10%;
+}
+
+#uniImage{
+    margin-left: 180px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.displayBox {
+    margin-left: 10%;
+    padding: 20px 20px 20px 20px;
+    flex-wrap: wrap;
+    display: flex; 
+    width: 80%;
+    /* background-color: rgb(251, 231, 144); */
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.displayBox h2{
+    width: 100%;
+    color: rgb(182, 55, 55);
+}
+
+
+
+.uniDes{
+    width: 55%;
+    float: right;
+    margin-right: 150px;
+
+}
+
+
+
+.intake{
+    width: 20%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: 30px;
+    background-color:rgb(245, 223, 194);
+    text-align: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.intake:hover{
+    background-color: rgb(255, 211, 91);
+}
+
+.fa-regular fa-pen-to-square{
+    color: white;
+    margin-left: 10px;
+}
+
+#kInfo{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+#editBtn{
+    background-color: #ff7417;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px 0px 10px 0px;
+}
+
+#editBtn a{
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#editBtn:hover {
+    background-color: rgba(255, 166, 50, 0.582);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+  
+#courseContainer{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#courseContainer:hover{
+    background-color: rgb(255, 211, 91);
+}

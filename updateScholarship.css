@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.action:link {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.25s;
+}
+
+/* a:visited,
+a:link:hover,
+a:visited:hover {
+  text-decoration: none;
+} */
+
+body {
+  background: #ffffff;
+  background: #ffffff none repeat scroll top left;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: normal;
+  /* font-size: 13px; */
+}
+
+.container {
+  border-radius: 10px;
+  background: #fff;
+  max-width: 900px;
+  /* height:600px; */
+  
+  margin: 4% auto;
+  margin-top: 150px;
+  padding: 20px 20px 5px 20px;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  position: relative;
+  height: 30px;
+  padding: 0 30px;
+  border: 2px solid #000;
+  background: #e8e8e8;
+  user-select: none;
+  white-space: nowrap;
+  transition: all .05s linear;
+  font-family: inherit;
+ }
+ 
+ button:before, button:after {
+  content: "";
+  position: absolute;
+  background: #e8e8e8;
+  transition: all .2s linear;
+ }
+ 
+ button:before {
+  width: calc(100% + 6px);
+  height: calc(100% - 16px);
+  top: 8px;
+  left: -3px;
+ }
+ 
+ button:after {
+  width: calc(100% - 16px);
+  height: calc(100% + 6px);
+  top: -3px;
+  left: 8px;
+ }
+ 
+ button:hover {
+  cursor: crosshair;
+ }
+ 
+ button:active {
+  transform: scale(0.95);
+ }
+ 
+ button:hover:before {
+  height: calc(100% - 28px);
+  top: 16px;
+ }
+ 
+ button:hover:after {
+  width: calc(100% - 28px);
+  left: 16px;
+ }
+ 
+ button span {
+  font-size: 15px;
+  z-index: 3;
+  position: relative;
+  font-weight: 600;
+ }
+

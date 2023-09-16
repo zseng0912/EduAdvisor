@@ -1,0 +1,164 @@
+body{
+  background-image: url(images/aboutUs_services_bg.png);
+}
+.modal {
+    width: 900px;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    /* max-width: 450px; */
+    margin-top:120px;
+    margin-bottom: 100px;
+    margin-left: 350px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  
+  .course-info--form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+  }
+  
+  .input_container {
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 130px;
+    /* align-items: center;  */
+
+  }
+
+  .btn-box{
+    display: flex;
+}
+  
+  .input_label {
+    font-size: 16px;
+    color: #8B8E98;
+    font-weight: 600;
+    margin-left: 10px;
+    text-align: left;
+  }
+  
+  .input_field {
+    width: 600px;
+    height: 40px;
+    padding: 0 0 0 16px;
+    border-radius: 9px;
+    outline: none;
+    background-color: #e7e4e4;
+    border: 1px solid #e5e5e500;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+    font-weight: 600;
+  }
+
+  .content_field {
+    width: 600px;
+    padding: 0 0 0 16px;
+    border-radius: 9px;
+    outline: none;
+    background-color: #e7e4e4;
+    border: 1px solid #e5e5e500;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+    font-weight: 600;
+  }
+  
+  .input_field:focus {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 2px #242424;
+    background-color: transparent;
+  }
+
+  .content_field:focus {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 0px 2px #242424;
+    background-color: transparent;
+  }
+  
+  
+  .update--btn {
+    height: 55px;
+    width: 200px;
+    margin-left: 190px;
+    background: #F2F2F2;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #f49e7e 0%, #f68156 50%, #ff7846 100%);
+    box-shadow: 0px 0px 0px 0px #FFFFFF, 0px 0px 0px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+
+  .delete--btn {
+    height: 55px;
+    width: 200px;
+    margin-left: 100px;
+    background: #F2F2F2;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #f49e7e 0%, #f68156 50%, #ff7846 100%);
+    box-shadow: 0px 0px 0px 0px #FFFFFF, 0px 0px 0px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+
+  }
+.cancel--btn {
+    height: 55px;
+    width: 500px;
+    margin-left: 190px;
+    background: #F2F2F2;
+    border-radius: 11px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #f49e7e 0%, #f68156 50%, #ff7846 100%);
+    box-shadow: 0px 0px 0px 0px #FFFFFF, 0px 0px 0px 0px #000000;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+
+  }
+
+
+
+  .delete--btn:hover {
+    box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
+  }
+  
+  .update--btn:hover {
+    box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
+  }
+  
+  .cancel--btn:hover {
+    box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
+  }
+  
+  /* Reset input number styles */
+  .input_field::-webkit-outer-spin-button,
+  .input_field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .input_field[type=number] {
+    -moz-appearance: textfield;
+  }

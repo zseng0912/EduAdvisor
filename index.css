@@ -1,0 +1,204 @@
+
+
+/* Home section style */
+.home_section{
+    background-image: url(https://www.outsystems.com/-/media/images/solutions/higher-education/higher-education-hero-v2.jpg?h=920&iar=0&w=1456&updated=20220111092106&hash=D2EBF1F7DB974802BC098C6752EADED3);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 100px;
+  }
+  /* https://www.bankofengland.co.uk/-/media/boe/images/education-and-engagement/education/teacher-resource-image-1-web.jpg?h=347&iar=0&mh=347&mw=520&w=520&hash=D67E03DBA712D99DD513F2E3C8573AF3 */
+  .overlay{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .home h1{
+    font-size: 4rem;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .home span{
+    color: rgb(228, 151, 8);
+  }
+  .home_buttons{
+    margin-top: 2rem;
+  }
+  /* .home_buttons button{
+    padding: 10px 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  } */
+.home_buttons button{
+  --bg: rgb(228, 151, 8);
+  --hover-bg: #fdf7fc;
+  --hover-text: #000;
+  color: #fff;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 1.2em 3em;
+  background: var(--bg);
+  transition: 0.2s;
+  margin: 3rem;
+}
+.home_buttons button:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem,-0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.home_buttons button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+  .home_buttons button i{
+    margin-right: 10px;
+  }
+  /* .home_buttons .btn1{
+    background: rgb(228, 151, 8);
+    color: #fff;
+  } */
+  
+  /* services */
+  .services{
+    background: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    margin-top: 15px;
+  }
+  .services .title{
+    text-align: center;
+  }
+  .title h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+  .title span{
+    color: rgb(228, 151, 8);
+  }
+  .title .slogan{
+    font-size: 1rem;
+    color: gray;
+  }
+  .services_boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .box{
+    width: 320px;
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
+  }
+  .box i{
+    font-size: 4rem;
+    color: rgb(228, 151, 8);
+    margin-bottom: 2rem;
+  }
+  .box p{
+    color: gray;
+    margin-top: 10px;
+  }
+  .box:hover{
+    border: 2px solid rgb(228, 151, 8);
+  }
+
+  /* About */
+.about {
+  /* background: #ccc1d8; */
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .image {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+}
+.about .image img {
+  width: 100%;
+}
+.about .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+}
+.about .content h3 {
+  color: #302851;
+  font-size: 3.0rem;
+}
+.about .content p {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 1.0rem;
+  background: #b1a5a5;
+  color: black;
+  font-size: 1.0rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(105, 105, 105);
+}
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-180px * 7));
+  }
+}
+
+.slider{
+  height:100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 100px;
+}
+
+.slider .slide-track{
+  animation: scroll 50s linear infinite;
+  display: flex;
+  width: calc(180px * 10);
+  height: 100%;
+}
+
+.slider .slide{
+  height: 150px;
+  width: 180px;
+  margin-right: 60px;
+}
