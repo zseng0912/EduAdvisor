@@ -4,7 +4,6 @@ Description: View Scholarship (User)
 First Written On: Sunday, 18-June-2023
 Last Edited On: Wednesday, 5-July-2023 -->
 <?php
-session_start();
 include "dbConn.php";
 include "header.php";
 ?>

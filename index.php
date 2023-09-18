@@ -9,7 +9,7 @@ Last Edited On: Wednesday, 5-July-2023 -->
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>EduAdvisor</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="images/EduAdvisor.png">
@@ -81,6 +81,41 @@ body {
   </div>
   </section>
 
+  <div class="about-container">
+    <section class="about">
+      <div class="about-image">
+        <img src="images/home1.png" width="550px" height="500px" alt="" />
+      </div>
+      <div class="about-content">
+        <h2>Deciding what to study?</h2>
+        <p>Find out if you're on the right track when you asnwer to the interest test.
+        You'll get to know your interested field of study to make the best decision to take charge of your future.</p>
+        <a href="interest_test_Main.php" class="read-more">Learn more</a>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-content" style="margin-right:40px;">
+        <h2>Looking for scholarships?</h2>
+        <p>Submit your results and get a list of personalised scholarship offers based on your results and personal circumstances.</p>
+        <a href="scholarships.php" class="read-more">Learn more</a>
+      </div>
+      <div class="about-image" style="margin-right:0px;">
+        <img src="images/home2.png" width="600px" height="400px" alt="" />
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-image">
+        <img src="images/home3.png" width="550px" height="500px" alt="" />
+      </div>
+      <div class="about-content">
+        <h2>Applying for university?</h2>
+        <p>Experience seamless and hassle-free application to university. 
+        Simply tell us what you want and we'll do the rest for you.</p>
+        <a href="login.php" class="read-more">Start Application</a>
+      </div>
+    </section>
+  </div>
+
   <div class="slider">
     <h4 style="text-align:center;  color: #666;margin-bottom:">Our students are currently studying in these abroad & local partner universities</h4>
     <br>
@@ -118,52 +153,8 @@ body {
   </div>
 </div>
 
-<div class="sections-container" style="margin: 70px;">
-  <!-- about Section -->
-  <section class="about" id="about">
-      <div class="image">
-        <img src="images/home1.png" width="350px" height="500px" alt="" />
-      </div>
-
-      <div class="content">
-        <h3>Deciding what to study?</h3>
-        <p>
-          Find out if you're on the right track when you asnwer to the interest test.
-         You'll get to know your interested field of study to make the best decision to take charge of your future.
-        </p>
-        <a href="interest_test_Main.php" class="btn">learn more</a>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="content">
-        <h3>Looking for scholarships?</h3>
-        <p>
-        Submit your results and get a list of personalised scholarship offers based on your results and personal circumstances.
-        </p>
-        <a href="scholarships.php" class="btn">learn more</a>
-      </div>
-
-      <div class="image">
-        <img src="images/home2.png" width="300px" height="450px"alt="" />
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="image">
-        <img src="images/home3.png" width="300px" height="450px" alt="" />
-      </div>
-
-      <div class="content">
-        <h3>Applying for university?</h3>
-        <p>
-        Experience seamless and hassle-free application to university. 
-        Simply tell us what you want and we'll do the rest for you.
-        </p>
-        <a href="login.php" class="btn">Start Application</a>
-      </div>
-    </section>
-</div>
-
 </body>
+<?php
+  include "footer.php"
+?>
 </html>

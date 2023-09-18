@@ -108,6 +108,10 @@ ul li{
     width: 50%;
     margin-bottom: 30px;
    } 
+
+   .footer-col ul li {
+    margin-bottom: 10px; /* Add this line */
+    }
 }
 
 @media(max-width: 574px) {
